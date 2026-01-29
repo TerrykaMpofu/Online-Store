@@ -1,4 +1,5 @@
 # Online-Store
+#Phase 1
 An online store, also known as e-commence store, allows customers to browse and purchase items while providing secure payment processing and shipping.
 In this project,we  designed and implemented a simplified online store. In our online store, there will be numerous products in many categories. Customers can browse the products, add them to their shopping carts, and
 proceed to checkout.
@@ -68,6 +69,13 @@ SHA-256.
 • DELETE is used when employees remove a product (the product is marked as
 “discontinued”).
 
+#Phase 2
+Phase 2 of this project implements the web-based functionality of the online store for both customers and employees on top of the database from Phase 1.
+​
+On the customer side, the system supports account registration, login and logout, and changing passwords from the main page using session-based authentication. Customers can browse product categories, view product listings even before login, and after logging in they can add items to a shopping cart, view and manage the cart (update quantities, remove items, add new items), and complete a checkout flow that verifies stock, updates inventory, creates orders, and shows the order number on success. Customers can also view their past orders, including high-level order info and detailed line items, through a dedicated “view orders” feature. The interface is designed to be easy to navigate, with clear buttons and labels so users can move between browsing, cart, and account-related functions without extra instructions.
+​
+On the employee side, the application provides an employee login where first-time users are forced to reset the initial password set by the administrator. After logging in, employees have a main page that allows them to restock products, change product prices, review stock change history (including customer purchases), and review price history with percentage changes over time, with an optional feature to insert new products into the catalog.
+​
 
 
 
